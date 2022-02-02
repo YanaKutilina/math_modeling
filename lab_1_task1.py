@@ -9,14 +9,3 @@ print("x","=",a,'+',b)
 x = 3 + 4
 print("x =", x)
 
-x= "Hello, World!"
-print(type(x))
-
-x=3+4
-print(type(x))
-
-x=3/4
-print(type(x))
-
-x=[1,2,5,10,100]
-print(type(x))
