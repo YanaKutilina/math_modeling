@@ -1,5 +1,10 @@
 for i in range(1,10):
   print(i,end=' ')
-for i in range(2,19,2):
-  print(i,)
+  for f in range(1,10):
+    print(i+f,end=' ')
+print()
+for i in range(2,10):
+  print(i)
+
+
 
