@@ -1,0 +1,10 @@
+Grav_const =6.67 *10**(-11)
+light_speed= 3 * 108 
+Free_fall= 9.80665 
+Pi=3.14159265359
+Avagadro_number=6.022140857 * (10**23)
+Electronic_charge= 1.6021766208 * 10 ** (-19)
+Quantum_conductivity= 96485.33289
+Neutron_mass= 1.674927471*(10**-27)
+Electron_mass=9.10938356*(10**(-31))
+Proton_mass=1.672621898*(10**(-27))
