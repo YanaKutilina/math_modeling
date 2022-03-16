@@ -11,5 +11,5 @@ print(v)
 T = 200
 E = 300
 
-N = 2 / np.pi * pc.hight / (pc.kar * T)*(3 / 2) * pc.ed*(-E / pc.kar * T) * E**(T / 2)
+N = 2 / np.pi * pc.hight / (pc.Bocman * T)*(3 / 2) * pc.eller*(-E / pc.Bocman * T) * E**(T / 2)
 print(N)
