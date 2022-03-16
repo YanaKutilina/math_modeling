@@ -1,10 +1,15 @@
 import numpy as np
-from lab_3_task1.py import Free_fall
+import lab_3_task1 as pc
 
-print(Free_fall)
+H = 100
+a = np.pi / 3
+b = 30
 
-h=100
-a=PI/3
-b=30
+v = np.sqrt(pc.Free_fall * H * (np.tan(b)**2 / 2 * np.cos(a)**2 * (1 - np.tan(b) * np.tan(a))))
+print(v)
 
-V=()
+T = 200
+E = 300
+
+N = 2 / np.pi * pc.hight / (pc.kar * T)*(3 / 2) * pc.ed*(-E / pc.kar * T) * E**(T / 2)
+print(N)
