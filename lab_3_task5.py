@@ -16,8 +16,8 @@ print(L)
 a=int(input())
 b=int(input())
 for i in range(N):
-  L[i,a],L[i,b]=a[i,b],a[i,a]
-  print(L[i])
+  L[i,a],L[i,b]=L[i,b],L[i,a]
+print(L)
 
 
 
