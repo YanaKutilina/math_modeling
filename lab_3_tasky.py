@@ -6,6 +6,8 @@ for i in range(4):
     a[i,j]=c
     c+=1
 
+print(a)
+
 s=a[2::,:2]
 print(s)
 
