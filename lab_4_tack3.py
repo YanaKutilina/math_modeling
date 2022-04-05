@@ -11,6 +11,6 @@ Proton_mass=1.672621898*(10**(-27))
 hight = 6.62*10**(-34)
 eller=2.71828
 
-def mex_end(a,b,c):
-  print((a*c**2/2)+(a*g*b))
-mex_end(a=10,b=5,c=6)
+def mex_end(m,h,v):
+  print((m*v**2/2)+(m*g*h))
+mex_end(m=10,h=5,v=6)

@@ -1,10 +1,14 @@
 import numpy as np
-d = np.linspace(1, 5, 10)
-print(d)
-s=1
-for i in range(len(d)):
-  s=s*d[i]
-print(s)
+b = np.arange(1, 6, 1)
+print(b)
+def funs():
+  s=1
+  for i in range(len(b)):
+    s=s*b[i]
+  return s
+
+print(funs())
+
 
 
 
